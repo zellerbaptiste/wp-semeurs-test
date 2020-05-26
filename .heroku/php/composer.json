@@ -1,0 +1,62 @@
+{
+    "config": {
+        "cache-files-ttl": 0,
+        "discard-changes": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": false,
+    "provide": {
+        "heroku-sys\/heroku": "18.2020.05.25"
+    },
+    "require": {
+        "composer.json\/composer.lock": "dev-0e3bb12ed7fffa68ffc21768da685a88",
+        "vlucas\/phpdotenv": "v2.4.0",
+        "heroku-sys\/apache": "^2.4.10",
+        "heroku-sys\/nginx": "^1.8.0",
+        "heroku-sys/ext-newrelic": "*"
+    },
+    "require-dev": {},
+    "repositories": [
+        {
+            "packagist": false
+        },
+        {
+            "type": "path",
+            "url": "\/app\/tmp\/buildpacks\/5a80f8ce685a6790b7305c03a5e32a1a78f6000d2ebffe427ebd0c37f1c14ac5265cf09760b12c076dddb542a0151c03bdd63259d0cecae8207109106aa16695\/support\/installer\/",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "composer",
+            "url": "https:\/\/lang-php.s3.amazonaws.com\/dist-heroku-18-stable\/"
+        },
+        {
+            "type": "package",
+            "package": [
+                {
+                    "type": "metapackage",
+                    "name": "vlucas\/phpdotenv",
+                    "version": "v2.4.0",
+                    "require": {
+                        "heroku-sys\/php": ">=5.3.9"
+                    },
+                    "replace": {},
+                    "provide": {},
+                    "conflict": {}
+                },
+                {
+                    "type": "metapackage",
+                    "name": "composer.json\/composer.lock",
+                    "version": "dev-0e3bb12ed7fffa68ffc21768da685a88",
+                    "require": {
+                        "heroku-sys\/php": ">=5.3.0"
+                    },
+                    "replace": {},
+                    "provide": {},
+                    "conflict": {}
+                }
+            ]
+        }
+    ]
+}

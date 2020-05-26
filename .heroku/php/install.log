@@ -1,0 +1,22 @@
+Loading composer repositories with package information
+Updating dependencies
+Package operations: 6 installs, 0 updates, 0 removals
+  - Installing heroku/installer-plugin (1.3.0): Mirroring from /app/tmp/buildpacks/5a80f8ce685a6790b7305c03a5e32a1a78f6000d2ebffe427ebd0c37f1c14ac5265cf09760b12c076dddb542a0151c03bdd63259d0cecae8207109106aa16695/support/installer
+  - Installing heroku-sys/php (7.4.5)
+Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing composer.json/composer.lock (dev-0e3bb12ed7fffa68ffc21768da685a88)
+  - Installing vlucas/phpdotenv (v2.4.0)
+  - Installing heroku-sys/apache (2.4.43)
+Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing heroku-sys/nginx (1.18.0)
+Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (25%)Downloading (30%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+Writing lock file
+Generating autoload files
+composer.json has been updated
+Loading composer repositories with package information
+Updating dependencies
+Package operations: 1 install, 0 updates, 0 removals
+  - Installing heroku-sys/ext-newrelic (9.10.0.262)
+Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+Writing lock file
+Generating autoload files
